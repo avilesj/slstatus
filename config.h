@@ -66,7 +66,7 @@ static const struct arg args[] = {
         { netspeed_rx, "[ %s/",           "enp2s0" },
         { netspeed_tx, " %s]",           "enp2s0" },
 	{ cpu_perc, "[\uf085 %s%]",           NULL },
-	{ ram_perc, "[ %s%]",           NULL },
+	{ ram_perc, "[\uf2db %s%]",           NULL },
 	{ swap_perc, "[ %s%]",           NULL },
 	{ run_command, "[ %s%%] ", "/bin/sh -c \"amixer get Master | tail -n1 | grep -Po '\\[\\K[^%]*' | head -n1\"" },
 	{ datetime, "[\uf017 %s]",           "%F %T" },
